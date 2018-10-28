@@ -1,0 +1,31 @@
+.comment {
+	margin-left: 55px;
+}
+
+.user-image {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	float: left;
+}
+
+
+.user-name {
+	float: left;
+	margin-left: 15px;
+}
+
+.user-name>h3 {
+	margin: 6px;
+}
+
+.user-comment {
+	clear: both;
+	margin-left: 65px;
+}
+
+.comment-create-time {
+	font-style: italic;
+	font-size: 11px;
+	color: #aaa;
+}

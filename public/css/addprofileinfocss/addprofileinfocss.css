@@ -1,0 +1,435 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	background-color: #fff;
+	font-family: "Lato", sans-serif;
+	transition: background-color .5s;
+}
+a {
+	text-decoration: none;
+}
+
+/* Nav CSS start here */
+
+.single-post-page-nav {
+	margin-bottom: 80px;
+
+}
+
+.single-post-page-nav nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	padding: 10px 100px;
+	box-sizing: border-box;
+	transition: .3s;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 0px 15px 10px -15px #0e0220;
+	/*background: transparent;*/
+}
+
+nav .logo {
+	padding: 4px 20px;
+	height: 40px;
+	float: left;
+	font-size: 24px;
+	transition: .3s;
+}
+
+nav .logo a {
+	color: #000;
+}
+
+nav.black {
+	background: #000;
+	height: 80px;
+	padding: 10px 100px;
+}
+
+nav.black .logo {
+	color: #000;
+}
+
+/* Dept nav list CSS */
+
+.dept {
+	padding: 4px 20px;
+	height: 40px;
+	width: 100% auto;
+	float: left;
+	transition: .3s;
+	margin-left: 50px;
+}
+
+.dept .dept-list {
+	list-style: none;
+	display: inline-flex;
+	float: left;
+	word-spacing: 2px;
+}
+
+.dept-list a {
+	color: #000;
+	margin-right: 4px;
+}
+
+.dept-list .acca {
+	height: 40px;
+	background-color: #bb0029;
+	color: #f6f6f6;
+	margin-right: 8px;
+	padding: 5px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.dept-list .acca:hover {
+	background-color: #e7455f;
+	color: #f6f6f6;
+	transition: 0.3s;
+}
+
+.dept-list .cima {
+	height: 40px;
+	background-color: #ff5722;
+	color: #f6f6f6;
+	margin-right: 8px;
+	padding: 5px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.dept-list .cima:hover {
+	background-color: #f4d143;
+	color: #f6f6f6;
+	transition: 0.3s;
+}
+
+.dept-list .cat {
+	height: 40px;
+	background-color: #71397c;
+	color: #f6f6f6;
+	margin-right: 8px;
+	padding: 5px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.dept-list .cat:hover {
+	background-color: #388e3c;
+	color: #f6f6f6;
+	transition: 0.3s;
+}
+
+.logout {
+	float: right;
+	height: 25px;
+	width: 55px;
+	/*cursor: pointer;*/
+}
+
+.logout a {
+	text-decoration: none;
+	background-color: #0e0220;
+	padding: 4px 10px;
+	cursor: pointer;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Dosis', sans-serif;
+	letter-spacing: 2px;
+	height: 25px;
+	width: 55px;
+	text-align: center;
+	display: block;
+	transition: all 0.3s ease-out;
+}
+
+.logout a:hover {
+	background-color: #fa8f4d;
+	color: #0e0220;
+	transition: all 0.3s ease-out;
+	height: 24px;
+	/*border: 1px solid #0e0220;*/
+}
+
+/* Nav CSS end here */
+
+
+/* full page css start from here */
+
+.full-page {
+	width: 90%;
+	height: 100% auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.profile-image-section {
+	padding: 10px 300px;
+}
+
+.change-profile-image {
+	padding-left: 5px;
+	margin: 5px;
+	background-color: #f9ce00;
+	height: 100% auto;
+	overflow: hidden;
+	border-radius: 3px;
+}
+
+.change-profile-image .profile-image {
+	height: 150px;
+	width: 150px;
+	float: left;
+	border-radius: 50%;
+	margin-right: 10px;
+	border: 1px solid #fbf0f0;
+	padding: 2px;
+}
+
+.change-profile-image h2 {
+	padding: 7px;
+	margin-top: 5px;
+	font-size: 35px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	font-family: 'Poiret One', cursive;
+	color: #09194f;
+}
+
+.change-profile-image .label {
+	margin-top: 2px;
+	font-size: 20px;
+	font-weight: 200;
+	font-family: 'Josefin Slab', serif;
+}
+
+.change-profile-image .input-file {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	padding: 4px;
+	background-color: #d65f00;
+	margin-left: 170px;
+	width: 250px;
+	color: #f6f6e9;
+	border-radius: 2px;
+}
+
+.change-profile-image .button {
+	/*padding: 2px;*/
+}
+
+.change-profile-image .submit-image-button {
+	height: 35px;
+	width: 80px;
+	border: none;
+	background-color: #265961;
+	color: #fdfdeb;
+	border-radius: 2px;
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 20px;
+	letter-spacing: 2px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+	margin-left: 2px;
+}
+
+.change-profile-image .submit-image-button:hover {
+	background-color: #227066;
+	transition: 0.3s;
+}
+
+
+/* Add more info css start from here */
+
+.more-info {
+	padding: 10px 300px;
+}
+
+.more-info-form {
+	margin: 5px;
+	/*background-color: #f9ce00;*/
+	height: 100% auto;
+	overflow: hidden;
+	border-radius: 3px;
+	background-color: #e3eff3;
+}
+
+.more-info-form hr {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border-bottom: 2px solid #a13939;
+}
+
+.more-info-form h2 {
+	margin-left: 100px;
+	margin-top: 10px;
+	font-size: 45px;
+	font-family: 'Zilla Slab Highlight', cursive;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: #8e3343;
+}
+
+.more-info-form form {
+	margin-left: 100px;
+	height: 100% auto;
+	width: 100% auto;
+}
+
+.more-info-form .name {
+	height: 30px;
+	width: 300px;
+	padding: 2px;
+	letter-spacing: 2px;
+	margin-bottom: 3px;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 200;
+	font-family: 'Special Elite', cursive;
+	background-color: #dbbf0d;
+	color: #111f4d;
+	border: none;
+	border-radius: 2px;
+	cursor: not-allowed;
+}
+
+.more-info-form .sex {
+	height: 30px;
+	width: 300px;
+	padding: 2px;
+	letter-spacing: 2px;
+	margin-bottom: 3px;
+	margin-top: 2px;
+	font-size: 20px;
+	font-weight: 200;
+	font-family: 'Special Elite', cursive;
+	background-color: #5f4444;
+	color: #fef8e6;
+	border: none;
+	border-radius: 2px;
+}
+
+.more-info-form .sex>option {
+	background-color: #302939;
+}
+
+.more-info-form .city {
+	height: 30px;
+	width: 300px;
+	padding: 2px;
+	letter-spacing: 2px;
+	margin-bottom: 3px;
+	margin-top: 2px;
+	font-size: 20px;
+	font-weight: 200;
+	font-family: 'Special Elite', cursive;
+	background-color: #4d3664;
+	color: #fef8e6;
+	border: none;
+	border-radius: 2px;
+}
+
+.more-info-form .city::placeholder {
+	color: #fef8e6;
+}
+
+.more-info-form .bio {
+	height: 70px;
+	width: 300px;
+	padding: 2px;
+	letter-spacing: 2px;
+	margin-bottom: 3px;
+	margin-top: 2px;
+	font-size: 20px;
+	font-weight: 200;
+	font-family: 'Special Elite', cursive;
+	background-color: #4d3664;
+	color: #fef8e6;
+	border: none;
+	border-radius: 2px;
+}
+
+.more-info-form .bio::placeholder {
+	color: #fef8e6;
+}
+
+.more-info-form .phone {
+	height: 30px;
+	width: 300px;
+	padding: 2px;
+	letter-spacing: 2px;
+	margin-bottom: 3px;
+	margin-top: 2px;
+	font-size: 20px;
+	font-weight: 200;
+	font-family: 'Special Elite', cursive;
+	background-color: #17b978;
+	color: #fef8e6;
+	border: none;
+	border-radius: 2px;
+}
+
+.more-info-form .phone::placeholder {
+	color: #fef8e6;
+}
+
+.more-info-form .email {
+	height: 30px;
+	width: 300px;
+	padding: 2px;
+	letter-spacing: 2px;
+	margin-bottom: 3px;
+	margin-top: 2px;
+	font-size: 20px;
+	font-weight: 200;
+	font-family: 'Special Elite', cursive;
+	background-color: #e41f7b;
+	color: #111f4d;
+	border: none;
+	border-radius: 2px;
+	cursor: not-allowed;
+}
+
+.more-info-form .info-submit-button {
+	height: 40px;
+	width: 150px;
+	background-color: #dc4712;
+	color: #e3f3f7;
+	transition: 0.3s;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Poiret One', cursive;
+	box-shadow: 4px 4px 6px 6px #0d1b4c;
+}
+
+.more-info-form .info-submit-button:hover {
+	
+	/*background-color: #0d1b4c;*/
+	color: #e3f3f7;
+	box-shadow: 4px 4px 6px 6px #dc4712;
+	transition: 0.3s;
+}

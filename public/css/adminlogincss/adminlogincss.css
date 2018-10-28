@@ -1,0 +1,164 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	font-family: "Lato", sans-serif;
+	transition: background-color .5s;
+}
+
+.body-background-animation {
+  background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  height: 100vh;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+
+.full-page {
+	width: 100%;
+	height: 100% auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.login-section {
+	height: 100% auto;
+	width: 400px;
+	margin-left: 460px;
+	margin-top: 120px;
+
+}
+
+.login-box {
+	background-color: #f8f9fc;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.login-box h2 {
+	font-family: 'Mouse Memoirs', sans-serif;
+	letter-spacing: 4px;
+	font-size: 35px;
+	text-align: center;
+}
+
+.login-form {
+	margin-top: 10px;
+	padding: 10px;
+	margin-left: 45px;
+}
+
+.email-label {
+	font-size: 22px;
+	letter-spacing: 2px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	color: #480032;
+}
+
+.login-form #email {
+	height: 35px;
+	width: 250px;
+	font-size: 22px;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	padding: 5px;
+	border: none;
+	background-color: #3e3939;
+	color: #edf0c7;
+	font-family: 'Satisfy', cursive;
+}
+
+
+.password-label {
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+}
+
+.login-form #password {
+	height: 35px;
+	width: 250px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	border-radius: 2px;
+	padding: 5px;
+	border: none;
+	background-color: #7c203a;
+	color: #e6e6d4;
+}
+
+.checkbox {
+	margin-top: 8px;
+	font-size: 18px;
+	font-family: 'Josefin Slab', serif;
+}
+
+.login-button {
+	margin-top: 5px;
+}
+
+.login-button a {
+	text-decoration: none;
+}
+
+.submit-login-button {
+	height: 32px;
+	width: 100px;
+	border-radius: 2px;
+	border: none;
+	font-size: 20px;
+	font-family: 'Amatic SC', cursive;
+	background-color: #1a2c5b;
+	color: #e7e6fc;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.submit-login-button:hover {
+	background-color: #3e4e88;
+	color: #e7e6fc;
+	transition: 0.3s;
+}
+
+
+.login-button .password-forget-link {
+	font-size: 20px;
+	color: #1d2786;
+	font-family: 'Fanwood Text', serif;
+	text-decoration: underline;
+}
+
+.sign-up-link {
+	padding: 10px;
+}
+
+.sign-up-link a {
+	font-size: 35px;
+	letter-spacing: 2px;
+	margin-left: 45px;
+	font-family: 'Monofett', cursive;
+	color: #c51350;
+	transition: 0.3s;
+}
+
+.sign-up-link a:hover {
+	color: #032a33;
+	transition: 0.3s;
+}
+
+.or p {
+	margin-left: 95px;
+	font-family: 'Eater', cursive;
+}
